@@ -16,6 +16,6 @@ get_header(); ?>
 		
 </div>
 
-<?php do_action( 'flatsome_after_page' ); ?>
+<!-- <?php do_action( 'flatsome_after_page' ); ?> -->
 
 <?php get_footer(); ?>

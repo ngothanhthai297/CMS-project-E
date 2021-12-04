@@ -108,6 +108,7 @@ function flatsome_widgets_init() {
 		'before_title'  => '<span class="widget-title">',
 		'after_title'   => '</span><div class="is-divider small"></div>',
 	) );
+
 }
 
 add_action( 'widgets_init', 'flatsome_widgets_init' );
