@@ -37,10 +37,11 @@
     padding-left: 0 !important;
     padding-right: 0!important;
 }
-.img-categories {
+.box-image .img-categories {
     position: relative;
     border-radius: 50%;
-    height: 120px;
+    height: 100px;
+    width: 100px;
     border: 5px #ddd solid;
 }
 .img-categories:hover {
@@ -66,5 +67,8 @@
 }
 .header-title:hover {
     color: black !important;
+}
+.product-category .col-inner .box-category {
+    margin-left: 15px;
 }
 
