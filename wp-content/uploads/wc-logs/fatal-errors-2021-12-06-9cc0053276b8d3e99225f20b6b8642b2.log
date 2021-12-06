@@ -1,0 +1,10 @@
+2021-12-06T17:57:27+00:00 CRITICAL Uncaught Error: Call to undefined function is_blog() in C:\wamp64\www\wordpress_project\wp-content\themes\flatsome\inc\widgets\widget-recent-posts.php:86
+Stack trace:
+#0 C:\wamp64\www\wordpress_project\wp-includes\class-wp-widget.php(393): Flatsome_Recent_Post_Widget->widget(Array, Array)
+#1 C:\wamp64\www\wordpress_project\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#2 C:\wamp64\www\wordpress_project\wp-content\themes\flatsome\woocommerce\layouts\category.php(9): dynamic_sidebar('recent-posts-ta...')
+#3 C:\wamp64\www\wordpress_project\wp-includes\template.php(772): require('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress_project\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\wamp64\\www\\w...', false)
+#5 C:\wamp64\www\wordpress_project\wp-content\themes\flatsome\woocommerce\archive-product.php(26): wc_get_template_part('layouts/categor...', 'left-sidebar')
+#6 C:\wamp64\www\wordpress_project\wp-includes\template-loader.php(106): include('C: in C:\wamp64\www\wordpress_project\wp-content\themes\flatsome\inc\widgets\widget-recent-posts.php on line 86
+
