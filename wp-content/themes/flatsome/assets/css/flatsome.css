@@ -10701,35 +10701,3 @@ li.wc-layered-nav-rating .star-rating {
     content: '\e005\e005\e005\e005\e005'
 }
 
-
-/* header */
-#logo{
-    margin-left: 0px;
-}
-.icon-shopping-cart{
-    font-size: 17px !important;
-    color: #000;
-}
-.icon-search{
-    color: #000;
-    margin-right: 15px !important;
-}
-.icon-user{
-    color: #000;
-}
-.flex-col.hide-for-medium.flex-left.flex-grow{
-    /* margin-left: 165px !important; */
-}
-.nav>li.header-divider{
-    border: none;
-}
-.flex-grow .header-nav-main li{
-    margin: 0 25px !important;
-}
-.header-nav-main li a{
-    color: #000 !important;
-}
-.header-main{
-    background-image: url('/wp-content/themes/flatsome/assets/img/2021-12-04_14-37-37.png');
-    background-size: cover;
-}

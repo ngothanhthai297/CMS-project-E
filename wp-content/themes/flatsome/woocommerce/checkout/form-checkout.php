@@ -104,3 +104,4 @@ if ( flatsome_option( 'facebook_login_checkout' ) && get_option( 'woocommerce_en
 </form>
 
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
+
