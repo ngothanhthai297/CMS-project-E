@@ -1,29 +1,26 @@
 
 /* header */
-#logo{
+.header-inner #logo{
     margin-left: 0px;
 }
-.icon-shopping-cart{
+.header-inner .icon-shopping-cart{
     font-size: 17px !important;
     color: #000;
 }
-.icon-search{
+.header-inner .icon-search{
     color: #000;
     margin-right: 15px !important;
 }
-.icon-user{
+.header-inner .icon-user{
     color: #000;
 }
-.flex-col.hide-for-medium.flex-left.flex-grow{
-    /* margin-left: 165px !important; */
-}
-.nav>li.header-divider{
+.header-inner .nav>li.header-divider{
     border: none;
 }
-.flex-grow .header-nav-main li{
+.header-inner .flex-grow .header-nav-main li{
     margin: 0 25px !important;
 }
-.header-nav-main li a{
+.header-inner .header-nav-main li a{
     color: #000 !important;
 }
 .header-main{
