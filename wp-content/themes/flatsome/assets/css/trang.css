@@ -33,6 +33,7 @@
 
 /* selling cart */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.15.0/css/all.css');
 .footer-selling .wp-block-group__inner-container h2{
     color: #fff;
     font-size: 16px;
@@ -78,8 +79,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 .footer-selling .wc-block-grid__product-add-to-cart::before{
-    content: "\e116";
-    /* font-family: 'Glyphicons Halflings'; */
+    content: "\f07a";
+    font-family: "Font Awesome 5 Pro";
     background: #88be4c;
     color: #fff;
     font-size: 16px;
@@ -94,7 +95,7 @@
     border-radius: 0 !important;
     background-color: transparent;
     color: black;
-    padding-left: 14px;
+    padding-left: 8px;
 }
 .footer-selling .wp-block-button.wc-block-grid__product-add-to-cart{
     border: 2px #88be4c solid!important;
