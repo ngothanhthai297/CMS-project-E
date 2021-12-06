@@ -129,7 +129,7 @@ function shortcode_latest_from_blog($atts, $content = null, $tag = '' ) {
 	);
 
 	$css_image_height = array(
-      array( 'attribute' => 'padding-top', 'value' => '105%'),
+      array( 'attribute' => 'padding-top', 'value' => '90%'),
   	);
 
 	$css_args = array(
