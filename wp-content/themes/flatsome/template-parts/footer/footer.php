@@ -9,6 +9,7 @@
 </div>
 <?php endif; ?>
 
+
 <!-- FOOTER 2 -->
 <?php if ( is_active_sidebar( 'sidebar-footer-2' )  && get_theme_mod('footer_2', 1) ) : ?>
 <div class="footer-widgets footer footer-2 <?php if(flatsome_option('footer_2_color') == 'dark') echo 'dark'; ?>">
