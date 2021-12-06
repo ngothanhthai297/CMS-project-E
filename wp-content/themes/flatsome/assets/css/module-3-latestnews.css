@@ -49,3 +49,6 @@
 .readmore a {
     color: #000;
 }
+.image-tools.grid-tools.text-center.hide-for-small.bottom.hover-slide-in.show-on-hover {
+    text-align: center !important;
+}
