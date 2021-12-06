@@ -3,15 +3,18 @@
 <!--[if IE 8 ]> <html <?php language_attributes(); ?> class="ie8 <?php flatsome_html_classes(); ?>"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html <?php language_attributes(); ?> class="<?php flatsome_html_classes(); ?>"> <!--<![endif]-->
 <head>
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
+	<!-- Link css footer -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/footer.css" type="text/css" media="screen" />
 	<?php wp_head(); ?>
+	<script src="https://use.fontawesome.com/1ad2a7dd98.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>
-
 <?php do_action( 'flatsome_after_body_open' ); ?>
 <?php wp_body_open(); ?>
 
