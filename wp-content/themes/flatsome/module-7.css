@@ -44,8 +44,8 @@
     border-color: #6a9c32 #6a9c32 transparent transparent;
 }
 #flatsome_recent_posts-22 ul .recent-blog-posts-li .recent-blog-posts .flex-col .badge {
-    height: 70px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
 }
 #flatsome_recent_posts-22 ul .recent-blog-posts-li .recent-blog-posts .flex-col .badge .badge-inner {
     background-position: center !important;
@@ -55,5 +55,6 @@
 #flatsome_recent_posts-22 ul .recent-blog-posts-li .recent-blog-posts .flex-col a {
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
+    margin-top: 5px;
 }
