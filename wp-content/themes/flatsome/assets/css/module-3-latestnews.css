@@ -15,6 +15,9 @@
 .text-center {
     text-align: left !important;
 }
+.row.large-columns-4.medium-columns-3.small-columns-1.slider.row-slider.slider-nav-reveal.slider-nav-push.flickity-enabled {
+    width: 1225px !important;
+}
 .readmore {
     transition: .6s;
     margin-top: 8px;
