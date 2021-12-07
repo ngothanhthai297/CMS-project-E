@@ -108,6 +108,14 @@ function flatsome_widgets_init() {
 		'before_title'  => '<span class="widget-title">',
 		'after_title'   => '</span><div class="is-divider small"></div>',
 	) );
+	register_sidebar( array(
+		'name'          => __( 'Tam', 'flatsome' ),
+		'id'            => 'recent-posts-tam',
+		'before_widget' => '<aside id="%1$s" class="col pb-0 widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<span class="widget-title recent-posts-tam">',
+		'after_title'   => '</span>',
+	) );
 }
 
 add_action( 'widgets_init', 'flatsome_widgets_init' );
