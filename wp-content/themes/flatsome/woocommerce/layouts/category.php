@@ -6,6 +6,7 @@
 				<?php
 				  if(is_active_sidebar('shop-sidebar')) {
 				  		dynamic_sidebar('shop-sidebar');
+						dynamic_sidebar('recent-posts-tam');
 				  	} else{ echo '<p>You need to assign Widgets to <strong>"Shop Sidebar"</strong> in <a href="'.get_site_url().'/wp-admin/widgets.php">Appearance > Widgets</a> to show anything here</p>';
 				  }
 				?>

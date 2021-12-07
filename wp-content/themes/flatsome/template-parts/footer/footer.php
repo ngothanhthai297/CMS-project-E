@@ -1,3 +1,4 @@
+
 <?php do_action('flatsome_before_footer'); ?>
 
 <!-- FOOTER 1 -->
@@ -9,11 +10,12 @@
 </div>
 <?php endif; ?>
 
+
 <!-- FOOTER 2 -->
-<?php if ( is_active_sidebar( 'sidebar-footer-2' )  && get_theme_mod('footer_2', 1) ) : ?>
+<?php if ( is_active_sidebar( 'sidebar-footer-3' )  && get_theme_mod('footer_2', 1) ) : ?>
 <div class="footer-widgets footer footer-2 <?php if(flatsome_option('footer_2_color') == 'dark') echo 'dark'; ?>">
 		<div class="<?php echo flatsome_footer_row_style('footer-2'); ?> mb-0">
-	   		<?php dynamic_sidebar('sidebar-footer-2'); ?>        
+	   		<?php dynamic_sidebar('sidebar-footer-3'); ?>        
 		</div>
 </div>
 <?php endif; ?>

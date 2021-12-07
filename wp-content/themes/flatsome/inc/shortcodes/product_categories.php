@@ -22,7 +22,7 @@ function ux_product_categories($atts, $content = null, $tag = '' ) {
 
       // Layout
       'style' => 'badge',
-      'columns' => '4',
+      'columns' => '8',
       'columns__sm' => '',
       'columns__md' => '',
       'col_spacing' => 'small',
@@ -212,24 +212,24 @@ function ux_product_categories($atts, $content = null, $tag = '' ) {
                 <div class="<?php echo implode(' ', $classes_box); ?> ">
                 <div class="box-image" <?php echo get_shortcode_inline_css($css_args_img); ?>>
                   <div class="<?php echo implode(' ', $classes_image); ?>" <?php echo get_shortcode_inline_css($css_image_height); ?>>
-                  <?php echo '<img src="' . esc_url( $image ) . '" alt="' . esc_attr( $category->name ) . '" width="300" height="300" />'; ?>
+                  <?php echo '<img src="' . esc_url( $image ) . '" alt="' . esc_attr( $category->name ) . '" width="400" height="400" class="img-categories"/>'; ?>
                   <?php if($image_overlay){ ?><div class="overlay" style="background-color: <?php echo $image_overlay;?>"></div><?php } ?>
                   <?php if($style == 'shade'){ ?><div class="shade"></div><?php } ?>
                   </div>
                 </div>
                 <div class="box-text <?php echo implode(' ', $classes_text); ?>" <?php echo get_shortcode_inline_css($css_args); ?>>
                   <div class="box-text-inner">
-                      <h5 class="uppercase header-title">
+                      <h5 class="uppercases header-titles">
                               <?php echo $category->name; ?>
                       </h5>
-                      <?php if($show_count) { ?>
+                      <!-- <?php if($show_count) { ?>
                       <p class="is-xsmall uppercase count <?php if($style == 'overlay') echo 'show-on-hover hover-reveal reveal-small'; ?>">
 	                      <?php if ( $category->count > 0 ) {
 		                      echo apply_filters( 'woocommerce_subcategory_count_html', $category->count . ' ' . ( $category->count > 1 ? __( 'Products', 'woocommerce' ) : __( 'Product', 'woocommerce' ) ), $category );
 	                      }
 	                      ?>
                       </p>
-                      <?php } ?>
+                      <?php } ?> -->
                       <?php
                         /**
                          * woocommerce_after_subcategory_title hook
