@@ -9098,7 +9098,7 @@ ul.menu>li.has-child, .widget>ul>li.has-child {
 
 .recent-blog-posts a {
     line-height: 1.2;
-    /* display: block; */
+    display: block;
     margin-bottom: 6px
 }
 

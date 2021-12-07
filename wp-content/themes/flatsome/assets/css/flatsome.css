@@ -795,7 +795,7 @@ body, .container, .full-width .ubermenu-nav, .container-width, .row {
 }
 
 .container-width, .full-width .ubermenu-nav, .container, .row {
-    max-width: 1250px
+    max-width: 1250px;
 }
 
 .row.row-collapse {
@@ -803,7 +803,7 @@ body, .container, .full-width .ubermenu-nav, .container-width, .row {
 }
 
 .row.row-small {
-    max-width: 1065px
+    max-width: 1250px;
 }
 
 .row.row-large {
@@ -2386,7 +2386,7 @@ li.hide-title>a {
     line-height: .85;
     color: #fff;
     font-weight: bolder;
-    padding: 2px;
+    padding: 10px;
     white-space: nowrap;
     -webkit-transition: background-color .3s, color .3s, border .3s;
     -o-transition: background-color .3s, color .3s, border .3s;
@@ -2562,7 +2562,8 @@ li.hide-title>a {
     position: relative;
     height: auto;
     margin: 0 auto;
-    overflow: hidden
+    overflow: hidden;
+    text-align: center;
 }
 
 .box-image[style*="-radius"] {
@@ -9096,7 +9097,7 @@ ul.menu>li.has-child, .widget>ul>li.has-child {
 
 .recent-blog-posts a {
     line-height: 1.2;
-    /* display: block; */
+    display: block;
     margin-bottom: 6px
 }
 
@@ -10511,7 +10512,7 @@ ul.menu>li.has-child, .widget>ul>li.has-child {
 }
 
 .nav-dark .social-icons .button.is-outline, .dark .social-icons .button.is-outline {
-    /* border-color: rgba(255, 255, 255, 0.5) */
+    border-color: rgba(255, 255, 255, 0.5)
 }
 
 .social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
