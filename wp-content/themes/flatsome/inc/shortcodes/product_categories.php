@@ -219,7 +219,7 @@ function ux_product_categories($atts, $content = null, $tag = '' ) {
                 </div>
                 <div class="box-text <?php echo implode(' ', $classes_text); ?>" <?php echo get_shortcode_inline_css($css_args); ?>>
                   <div class="box-text-inner">
-                      <h5 class="uppercase header-title">
+                      <h5 class="uppercases header-titles">
                               <?php echo $category->name; ?>
                       </h5>
                       <!-- <?php if($show_count) { ?>
