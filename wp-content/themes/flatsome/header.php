@@ -2,14 +2,27 @@
 <!--[if IE 9 ]> <html <?php language_attributes(); ?> class="ie9 <?php flatsome_html_classes(); ?>"> <![endif]-->
 <!--[if IE 8 ]> <html <?php language_attributes(); ?> class="ie8 <?php flatsome_html_classes(); ?>"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html <?php language_attributes(); ?> class="<?php flatsome_html_classes(); ?>"> <!--<![endif]-->
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/tam.css" type="text/css" media="screen" />						
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/module-7.css" type="text/css" media="screen" />							
+
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css" />
+
 	<link rel="stylesheet" href="./header.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/trang.css" type="text/css" media="screen" />
+
 	<?php wp_head(); ?>
 </head>
 

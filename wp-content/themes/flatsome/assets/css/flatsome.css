@@ -795,7 +795,7 @@ body, .container, .full-width .ubermenu-nav, .container-width, .row {
 }
 
 .container-width, .full-width .ubermenu-nav, .container, .row {
-    max-width: 1080px
+    max-width: 1250px;
 }
 
 .row.row-collapse {
@@ -2386,7 +2386,7 @@ li.hide-title>a {
     line-height: .85;
     color: #fff;
     font-weight: bolder;
-    padding: 2px;
+    padding: 10px;
     white-space: nowrap;
     -webkit-transition: background-color .3s, color .3s, border .3s;
     -o-transition: background-color .3s, color .3s, border .3s;
@@ -2562,7 +2562,8 @@ li.hide-title>a {
     position: relative;
     height: auto;
     margin: 0 auto;
-    overflow: hidden
+    overflow: hidden;
+    text-align: center;
 }
 
 .box-image[style*="-radius"] {
@@ -10700,4 +10701,3 @@ li.wc-layered-nav-rating .star-rating {
 .stars a.star-5:after {
     content: '\e005\e005\e005\e005\e005'
 }
-
