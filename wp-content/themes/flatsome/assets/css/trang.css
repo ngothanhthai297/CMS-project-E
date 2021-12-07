@@ -78,8 +78,8 @@
 .footer-selling .wc-block-grid__product-add-to-cart::before{
     content: "\f07a";
     font-family: "Font Awesome 5 Pro";
-    background: #88be4c;
-    color: #fff;
+    /* background: #88be4c; */
+    color: #88be4c;
     font-size: 16px;
     padding: 6px 15.9px;
     display: inline-block;
@@ -96,7 +96,7 @@
 }
 .footer-selling .wp-block-button.wc-block-grid__product-add-to-cart{
     border: 2px #88be4c solid!important;
-    width: 76%;
+    width: 70%;
 }
 .footer-selling .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link.added:after {
     content: none !important;
