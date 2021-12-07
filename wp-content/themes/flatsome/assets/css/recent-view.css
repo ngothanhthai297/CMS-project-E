@@ -102,7 +102,7 @@
     border: 1px #e5e5e5 solid;
 }
 .footer-widgets.top-rating--block>div .widget_block{
-    border-bottom: 1px #e5e5e5 solid;
+    /* border-bottom: 1px #e5e5e5 solid; */
 }
 .footer-widgets.top-rating--block .wc-block-grid__product-title{
     font-weight: 100;
@@ -112,14 +112,4 @@
     font-size: 13px;
     min-height: 38px;
     line-height: 20px;
-}
-.list_selling ul.wc-block-grid__products{
-    margin-left: 8px;
-    margin-top: 10px;
-}
-.list_selling .wc-block-grid.wp-block-product-best-sellers.wc-block-product-best-sellers.has-4-columns{
-    border-left: 1px #e5e5e5 solid;
-}
-.list_selling .wc-block-grid__product{
-    margin-top: 5px;
 }
