@@ -14,5 +14,9 @@ get_header(); ?>
 	?>
 
 <?php endwhile; // end of the loop. ?>
-
+<div class="footer-widgets footer top-rating--block">
+	<div class="<?php echo flatsome_footer_row_style('top-rating--wrapper'); ?> mb-0">
+		<?php dynamic_sidebar('top-rating'); ?>
+	</div>
+</div>
 <?php get_footer(); ?>
