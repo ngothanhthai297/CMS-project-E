@@ -26,6 +26,7 @@
 }
 .section-title  {
     display: block !important;
+    padding-top: 10px;
 }
 .section-title-center span {
     margin: 0 !important;
@@ -69,8 +70,9 @@ h5.uppercases.header-titles {
 .box-text {
     background-color: white !important;
 }
-.header-title:hover {
-    color: black !important;
+
+h5.uppercases.header-titles:hover {
+    text-decoration: none !important;
 }
 .product-category .col-inner .box-category {
     margin-left: 15px;
@@ -84,6 +86,6 @@ h5.uppercases.header-titles {
     text-transform: uppercase;
    
 }
-.header-titles {
+a {
     text-decoration: none !important;
 }
