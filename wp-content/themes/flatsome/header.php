@@ -6,8 +6,12 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+	<link rel="stylesheet" href="./header.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/trang.css" type="text/css" media="screen" />
 
 	<?php wp_head(); ?>
 </head>
