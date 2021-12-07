@@ -10,6 +10,8 @@
 	<!-- Link css footer -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/footer.css" type="text/css" media="screen" />
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
 	<script src="https://use.fontawesome.com/1ad2a7dd98.js"></script>
 
 </head>

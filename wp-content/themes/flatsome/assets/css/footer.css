@@ -5,7 +5,8 @@
     color: #b2b2b2;
     position: relative;
     font-family: 'Roboto', sans-serif !important;
-    font-size: 14px;
+    font-size: 17px;
+    padding-right: 18px;
     font-weight: 400;
 }
 /* .widget-title{
@@ -36,7 +37,8 @@
 }
 .nav-dark .social-icons .button.is-outline, .dark .social-icons .button.is-outline{
     border:none !important;
-    font-size: 14px;
+    font-size: 17px;
+    padding-right: 18px;
     font-family: "FontAwesome";
     display: inline-block;
     font-weight: normal;
@@ -79,7 +81,8 @@
     border-top: none !important;
 }
 .social-icons.follow-icons i{
-    line-height: 40px!important;
+    line-height: 45px!important;
+    margin: 0 11px !important;
 }
 #flatsome_recent_posts-18{
     padding-left: 50px;
@@ -91,17 +94,51 @@
     padding-left: 15px;
     padding-right: 50px;
 }
+.col.widget_block:nth-child(1){
+    padding-right: 25px;
+}
+.col.widget_block:nth-child(1) .social-icons i{
+
+}
 .col.widget_block:nth-child(2){
     padding-left: 80px;
     padding-right: 0;
 }
-/* .wp-block-group__inner-container ul li:first-child::before{
-    content: '\f0da';
-    font-family: "Font Awesome 5 Free";
+.wp-block-group__inner-container ul.footer-info li{
+    cursor: default;
+}
+.wp-block-group__inner-container ul.footer-info li:nth-child(1)::before{
+    content: "\f041";
+    font: normal normal normal 14px/1 FontAwesome;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-} */
+    font-size: 17px;
+    padding-right: 18px;
+}
+.wp-block-group__inner-container ul.footer-info li:nth-child(2)::before{
+    content: "\f095";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    padding-right: 18px;
+}
+.wp-block-group__inner-container ul.footer-info li:nth-child(3)::before{
+    content: "\f1ac";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    padding-right: 18px;
+}
+.wp-block-group__inner-container ul.footer-info li:nth-child(4)::before{
+    content: "\f003";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    padding-right: 18px;
+}
 .wp-block-group__inner-container h2{
     font-size: 18px;
 }
@@ -130,4 +167,9 @@
     font-weight: 400;
     letter-spacing: .8px;
     padding-top: 11px;
+}
+@media (max-width: 992px) {
+    .col.widget_block:nth-child(2){
+        padding-left: 15px !important;
+    }
 }
