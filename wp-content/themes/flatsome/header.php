@@ -3,9 +3,12 @@
 <!--[if IE 8 ]> <html <?php language_attributes(); ?> class="ie8 <?php flatsome_html_classes(); ?>"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html <?php language_attributes(); ?> class="<?php flatsome_html_classes(); ?>"> <!--<![endif]-->
 
+
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/tam.css" type="text/css" media="screen" />						
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/module-7.css" type="text/css" media="screen" />							
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/module-7.css" type="text/css" media="screen" />							
 
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
