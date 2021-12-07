@@ -108,7 +108,3 @@ td.border-custom {
     padding: 0;
     border: 1px solid #ececec;
 }
-.secondary, .checkout-button, .button.checkout, .button.alt:hover {
-    text-decoration: none;
-    background: black !important;
-}
