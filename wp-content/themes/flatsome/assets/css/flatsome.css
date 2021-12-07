@@ -2386,7 +2386,7 @@ li.hide-title>a {
     line-height: .85;
     color: #fff;
     font-weight: bolder;
-    padding: 2px;
+    padding: 10px;
     white-space: nowrap;
     -webkit-transition: background-color .3s, color .3s, border .3s;
     -o-transition: background-color .3s, color .3s, border .3s;
