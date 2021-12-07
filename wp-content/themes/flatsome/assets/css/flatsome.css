@@ -795,7 +795,7 @@ body, .container, .full-width .ubermenu-nav, .container-width, .row {
 }
 
 .container-width, .full-width .ubermenu-nav, .container, .row {
-    max-width: 1250px
+    max-width: 1120px;
 }
 
 .row.row-collapse {
@@ -2562,7 +2562,8 @@ li.hide-title>a {
     position: relative;
     height: auto;
     margin: 0 auto;
-    overflow: hidden
+    overflow: hidden;
+    text-align: center;
 }
 
 .box-image[style*="-radius"] {

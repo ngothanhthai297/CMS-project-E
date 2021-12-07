@@ -71,4 +71,15 @@
 .product-category .col-inner .box-category {
     margin-left: 15px;
 }
-
+/* .product-category .col-inner .box-category .text-center {
+    text-align: center !important;
+} */
+.uppercases {
+    text-align: center;
+    margin-top: 10px !important;
+    text-transform: uppercase;
+   
+}
+.header-titles {
+    text-decoration: none !important;
+}
