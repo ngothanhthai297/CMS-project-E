@@ -38,7 +38,7 @@
 }
 .col-inner .btn-cart:before {
     content: '\f07a';
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 5 Pro';
     background: #88be4c;
     color: #fff;
     font-size: 16px;
