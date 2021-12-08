@@ -1,4 +1,4 @@
-#flatsome_recent_posts-22 {
+.flatsome_recent_posts {
     padding: 0px;
     position: relative;
     margin-top: 0px;
@@ -10,14 +10,18 @@
     box-shadow: 0 5px 0 rgb(200 200 200 / 20%);
     margin-bottom: 30px;
 }
-#flatsome_recent_posts-22 ul .recent-blog-posts-li {
+.widget-title.recent-posts-tam {
+    margin-left: -25px;
+}
+
+.recent-blog-posts-li {
     border-bottom: 1px solid #ECECEC;
     margin-bottom: 10px;
     padding-bottom: 12px;
     margin-left: 15px;
     overflow: hidden;
 }
-#shop-sidebar #flatsome_recent_posts-22 .recent-posts-tam {
+.recent-posts-tam {
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -32,7 +36,7 @@
     margin-top: 0px;
     margin-left: -10px;
 }
-#shop-sidebar #flatsome_recent_posts-22 .recent-posts-tam::after {
+.recent-posts-tam::after {
     content: "";
     height: 1px;
     width: 1px;
@@ -43,17 +47,18 @@
     left: 0;
     border-color: #6a9c32 #6a9c32 transparent transparent;
 }
-#flatsome_recent_posts-22 ul .recent-blog-posts-li .recent-blog-posts .flex-col .badge {
+.recent-blog-posts-li .recent-blog-posts .flex-col .badge {
     height: 70px;
-    width: 80px;
+    width: 70px;
 }
-#flatsome_recent_posts-22 ul .recent-blog-posts-li .recent-blog-posts .flex-col .badge .badge-inner {
+.recent-blog-posts-li .recent-blog-posts .flex-col .badge .badge-inner {
     background-position: center !important;
     background-origin: content-box !important;
     border: 1px solid #ECECEC !important;
 }
-#flatsome_recent_posts-22 ul .recent-blog-posts-li .recent-blog-posts .flex-col a {
+.recent-blog-posts-li .recent-blog-posts .flex-col a {
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
+    
 }
