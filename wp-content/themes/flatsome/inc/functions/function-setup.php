@@ -115,6 +115,14 @@ function flatsome_widgets_init() {
 		'before_title'  => '<span class="widget-title">',
 		'after_title'   => '</span><div class="is-divider small"></div>',
 	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer selling', 'flatsome' ),
+		'id'            => 'sidebar-footer-selling',
+		'before_widget' => '<div id="%1$s" class="col pb-0 widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<span class="widget-title">',
+		'after_title'   => '</span><div class="is-divider small"></div>',
+	) );
 
 }
 
