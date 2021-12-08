@@ -15,6 +15,7 @@
 
 }
 .widget_product_categories .shop-sidebar::before{
+    padding-right: 5px;
     content: '\f0c9';
     font-family: 'Font Awesome 5 Pro';
 }
