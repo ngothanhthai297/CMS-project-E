@@ -8,26 +8,27 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/module-7.css" type="text/css" media="screen" />							
 
 <head>
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css" />
-
-	<link rel="stylesheet" href="./header.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/trang.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/module-7.css" type="text/css" media="screen" />
+
+	<!-- Link css footer -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/footer.css" type="text/css" media="screen" />
 
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+	<script src="https://use.fontawesome.com/1ad2a7dd98.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>
-
 <?php do_action( 'flatsome_after_body_open' ); ?>
 <?php wp_body_open(); ?>
 
