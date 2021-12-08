@@ -13,6 +13,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
+
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/recent-view.css" type="text/css" media="screen" />
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -25,6 +26,7 @@
 
 
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/module-5.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/module-6.css" type="text/css" media="screen" />
 
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
