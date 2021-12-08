@@ -99,7 +99,6 @@ function flatsome_widgets_init() {
 		'after_title'   => '</span><div class="is-divider small"></div>',
 	) );
 
-
 	register_sidebar( array(
 		'name'          => __( 'Footer 2', 'flatsome' ),
 		'id'            => 'sidebar-footer-2',
@@ -109,10 +108,18 @@ function flatsome_widgets_init() {
 		'after_title'   => '</span><div class="is-divider small"></div>',
 	) );
 
-
+	// Recent View
 	register_sidebar( array(
-		'name'          => __( 'Footer selling', 'flatsome' ),
-		'id'            => 'sidebar-footer-selling',
+		'name'          => __( 'Top Rating', 'flatsome' ),
+		'id'            => 'top-rating',
+		'before_widget' => '<div id="%1$s" class="col pb-0 widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<span class="widget-title">',
+		'after_title'   => '</span><div class="is-divider small"></div>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer 3', 'flatsome' ),
+		'id'            => 'sidebar-footer-3',
 		'before_widget' => '<div id="%1$s" class="col pb-0 widget %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<span class="widget-title">',
