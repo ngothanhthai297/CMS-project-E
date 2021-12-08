@@ -16,7 +16,7 @@
 }
 .widget_product_categories .shop-sidebar::before{
     content: '\f0c9';
-    font-family: Font Awesome 5 Pro;
+    font-family: 'Font Awesome 5 Pro';
 }
 .widget_product_categories .shop-sidebar::after{
     content: "";
