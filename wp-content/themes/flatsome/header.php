@@ -14,7 +14,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/recent-view.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/top-rating.css" type="text/css" media="screen" />
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css" />

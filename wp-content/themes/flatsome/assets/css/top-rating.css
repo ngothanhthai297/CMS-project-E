@@ -5,7 +5,7 @@
     color: #fff;
     font-size: 18px;
     font-weight: bold;
-    padding: 16px 25px 22px 25px;
+    padding: 12px 25px 22px 25px;
     position: relative;
     display: inline-block;
     letter-spacing: 0.5px;
@@ -13,9 +13,10 @@
     background: #88be4c;
     margin-top: 0px;
     width: 184px;
-    height: 50px;
+    height: 44px;
     left: -10px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-widgets.top-rating--block .wp-block-group__inner-container h2::after {
@@ -111,7 +112,7 @@
     background: #88be4c;
     color: #fff;
     font-size: 16px;
-    padding: 10px 14px 6px 11px;
+    padding: 7px 14px 5px 11px;
 }
 .footer-widgets.top-rating--block .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link {
     border-radius: 0 !important;
