@@ -51,7 +51,8 @@
     margin-right: 8px;
 }
 .footer-2 .widget-title{
-    font: 500 16px/20px 'Roboto', sans-serif !important;
+    font-size: 20px;
+    /* font: 500 16px/20px 'Roboto', sans-serif !important; */
     text-transform: capitalize !important;
     margin: 0 0 10px 0;
     cursor: pointer;
@@ -142,6 +143,9 @@
 .footer-2 .wp-block-group__inner-container h2{
     font-size: 18px;
 }
+.footer-2 .wp-block-group__inner-container span.widget-title{
+    font-size: 18px !important;
+}
 .footer-2 .bottomfooter{
     color: #d9d9d9;
     font-size: 12px;
@@ -167,6 +171,12 @@
     font-weight: 400;
     letter-spacing: .8px;
     padding-top: 11px;
+}
+.footer-2 .is-divider.small{
+    display: none;
+}
+.footer-2 .widget_archive li a{
+    margin-bottom: 0 !important;
 }
 @media (max-width: 992px) {
     .footer-2 .col.widget_block:nth-child(2){
