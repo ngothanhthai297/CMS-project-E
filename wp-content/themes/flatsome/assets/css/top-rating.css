@@ -73,7 +73,7 @@
     margin-right: 7px;
 }
 .footer-widgets.top-rating--block ul.wc-block-grid__products li{
-    max-width: 23% !important;
+    /* max-width: 23% !important; */
 }
 .footer-widgets.top-rating--block .wc-block-grid.wp-block-product-best-sellers.wc-block-product-best-sellers.has-4-columns {
     border-left: 1px #e5e5e5 solid;
@@ -84,7 +84,7 @@
     margin-top: 5px;
 }
 .footer-widgets.top-rating--block .widget_block {
-    padding-right: 0;
+    /* padding-right: 0; */
 }
 
 .footer-widgets.top-rating--block .wc-block-grid__product-onsale {

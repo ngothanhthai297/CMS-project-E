@@ -108,3 +108,10 @@ td.border-custom {
     padding: 0;
     border: 1px solid #ececec;
 }
+.row.row-large {
+    max-width: 1300px !important; 
+}
+
+.woocommerce .row .col-md-6 {
+    max-width: 49.5% !important;
+}
