@@ -33,7 +33,7 @@
 .footer-2 .block_widget p:hover{
     cursor: default;
 }
-.footer-2 .dark a:hover{
+.footer-2 ul li a:hover{
     color:#fff !important;
 }
 .footer-2 .follow-icons{
