@@ -83,3 +83,6 @@
 .col-inner .badge-circle-inside .badge-inner, .badge-circle .badge-inner {
     background: #ed6663;
 }
+.col-inner .show-on-hover{
+    display: none !important;
+}
